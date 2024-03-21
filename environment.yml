@@ -1,0 +1,15 @@
+name: nlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - seaborn
+  - pip
+  - pip:
+    - scikit-learn
+    - numpy
+    - nltk
+    - tqdm
+    - pandas
