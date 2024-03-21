@@ -5,6 +5,6 @@ For creating the environment and executing the Jupyter Notebook needed for this 
 
 ```
 mamba env create -f environment.yml
-conda activate env_eda
+conda activate nlp
 /home/$USER/miniconda3/envs/nlp/bin/python -m ipykernel install --user --name "nlp"
 ```
