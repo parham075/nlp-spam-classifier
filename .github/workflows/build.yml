@@ -5,8 +5,13 @@ on:
     branches:
       - develop
       - main  
-    # paths:
-    #   - 'smsspamcollection/**'
+    paths:
+    - 'smsspamcollection/**'
+    - .github/**
+    - codemeta.json
+    - '**.pynb'
+    - environment.yml
+    - '**.md'
   
 
 jobs:
