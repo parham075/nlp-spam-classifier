@@ -1,16 +1,17 @@
 name: build
+
 on:
   push:
     branches:
     - develop
     - main
-  paths:
-  - 'smsspamcollection/**'
-  - .github/**
-  - '.gitignore'
-  - 'environment.yml'
-  - 'preprocessing.ipynb'
-  - codemeta.json
+  # paths:
+  # - 'smsspamcollection/**'
+  # - .github/**
+  # - '.gitignore'
+  # - 'environment.yml'
+  # - 'preprocessing.ipynb'
+  # - codemeta.json
 
 jobs:
   build-linux:
@@ -31,5 +32,5 @@ jobs:
         echo $GITHUB_PATH
     - name: Install dependencies
       run: |
-        conda env update --file ../../environment.yml
+        conda env update --file environment.yml
     
