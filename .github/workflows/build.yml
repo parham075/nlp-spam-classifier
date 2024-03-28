@@ -5,9 +5,9 @@ on:
     branches:
       - develop
       - main  
-  paths:
-    
-    - '**smsspamcollection/**'
+    paths:
+      
+      - '**smsspamcollection/**'
   # - '**/.github/**'
     
   #- '.gitignore'
