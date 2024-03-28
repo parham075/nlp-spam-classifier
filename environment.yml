@@ -6,6 +6,7 @@ dependencies:
   - python=3.10
   - ipykernel
   - seaborn
+  - flake8
   - pip
   - pip:
     - scikit-learn
@@ -14,3 +15,4 @@ dependencies:
     - tqdm
     - pandas
     - seaborn
+    
