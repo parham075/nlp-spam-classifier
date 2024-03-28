@@ -8,7 +8,7 @@ on:
   paths:
   # - '**/smsspamcollection/**'
   # - '**/.github/**'
-  - 'README.md'
+  - '**/README.md'
   #- '.gitignore'
   # - 'environment.yml'
   # - 'preprocessing.ipynb'
