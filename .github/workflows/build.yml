@@ -6,13 +6,14 @@ on:
     - develop
     - main
   paths:
-  - '../../smsspamcollection/**'
-  - ../../.github/**
-  - '../../.gitignore'
-  - '../../environment.yml'
-  - '../../preprocessing.ipynb'
+  - '**/smsspamcollection/**'
+  - '**/.github/**'
+  - '.gitignore'
+  - 'environment.yml'
+  - 'preprocessing.ipynb'
   #- ../../codemeta.json
-
+paths:
+  - '**/README.md'
 jobs:
   build-linux:
     runs-on: ubuntu-latest
