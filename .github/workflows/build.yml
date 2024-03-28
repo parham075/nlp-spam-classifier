@@ -3,8 +3,8 @@ name: build
 on:
   push:
     branches:
-    - develop
-    - main
+      - develop
+      - main  
     paths:
     # - '**/smsspamcollection/**'
     # - '**/.github/**'
