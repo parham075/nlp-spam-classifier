@@ -6,14 +6,8 @@ on:
       - develop
       - main  
     paths:
-      
-      - '**smsspamcollection/**'
-  # - '**/.github/**'
-    
-  #- '.gitignore'
-  # - 'environment.yml'
-  # - 'preprocessing.ipynb'
-  #- ../../codemeta.json
+      - 'smsspamcollection/**'
+  
 
 jobs:
   build-linux:
