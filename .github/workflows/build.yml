@@ -5,14 +5,15 @@ on:
     branches:
       - develop
       - main  
-    paths:
-    # - '**/smsspamcollection/**'
-    # - '**/.github/**'
-      - '**/README.md'
-    #- '.gitignore'
-    # - 'environment.yml'
-    # - 'preprocessing.ipynb'
-    #- ../../codemeta.json
+  paths:
+    - 'README.md'
+  # - '**/smsspamcollection/**'
+  # - '**/.github/**'
+    
+  #- '.gitignore'
+  # - 'environment.yml'
+  # - 'preprocessing.ipynb'
+  #- ../../codemeta.json
 
 jobs:
   build-linux:
