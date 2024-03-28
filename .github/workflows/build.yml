@@ -6,8 +6,8 @@ on:
       - develop
       - main  
   paths:
-    - 'README.md'
-  # - '**/smsspamcollection/**'
+    
+    - 'smsspamcollection/**'
   # - '**/.github/**'
     
   #- '.gitignore'
