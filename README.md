@@ -8,4 +8,3 @@ conda env create -f environment.yml
 conda activate nlp
 /home/$USER/miniconda3/envs/nlp/bin/python -m ipykernel install --user --name "nlp"
 ```
-[![Readme Card](https://github.com/parham075/nlp-spam-classifier/)
